@@ -1,9 +1,14 @@
+streamlit
+python-dotenv
+requests
+beautifulsoup4
+newspaper3k
+
 langchain
-python-dotenv==1.0.0
-streamlit==1.22.0
-unstructured==0.9.2
-tiktoken==0.4.0
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-groq
+
 faiss-cpu
-libmagic==1.0
-python-magic==0.4.27
-python-magic-bin==0.4.14; sys_platform == "win32"
+sentence-transformers
